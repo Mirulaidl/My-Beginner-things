@@ -1,0 +1,40 @@
+<!DOCTYPE html> <!-- telling the web browser the type of this document is html-->
+<html>
+  <head>
+    <meta charset="UTF-8"> <!-- define what type of information inside this document-->
+    <meta name="description" content="Your Description"> <!-- description used for search engine in google -->
+    <meta name="author" content="Amirul"> <!-- tell ther name author for this website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- rescale the website for other device -->
+    <meta name="description" content="This is an awesome website">
+    <title>Amirul's Website</title> <!-- title for the google tab -->
+  </head>
+  <body style="background-color:lightblue;">
+
+    <input type="text" value="Enter your Username"/>
+    <input type="password" /><!--type= email, range, date, file, checkbox, radio, submit, etc-->
+    <div><textarea rows="10" cols="30">
+      Enter a paragraph
+    </textarea></div>
+    <h2><big>Amirul's</big><small>Website</small></h2> <!-- header for our website, big and small for text sizing-->
+    <hr/> <!--block of single line-->
+    <p><b><i>Hi, this is my first Website :D</i></b></p> <!--paragraph, b for bold, i for italic-->
+    <p>H<sub>2</sub>0</p> <!-- sub = subtext-->
+    <p>10<sup>2</sup></p> <!-- sup = superscript-->
+
+
+    <h2 style="color:green;">Style and Colors</h2>
+    <p style="color: white; background-color:black;">You can style your HTML and make it look pretty</p> <!-- color to style my website -->
+
+    <a href="https://www.google.com/">Google's Homepage</a> <!--link to google , can also use to navigate to another page-->
+
+    <div><img src="dorime-cheems.jpg" height="100" alt="A really scary amogus" /></div>
+
+    <div><video src="wot.mp4" controls></video></div><!-- video from my files-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5DlROhT8NgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- youtube video -->
+
+    <iframe src="https://giraffeacademy.com/" frameborder="0" width="1000" height="800">Sorry</iframe> <!-- iframe use other website page on our website -->
+  </body>
+
+</html>
